@@ -1,5 +1,23 @@
 $(document).ready(function(){
-    // for (let i = 0; i < $(.modal).lengths; i++)
-    $('.modal').modal();
-  });
+    $('#modal1').modal();
+    $('#modal2').modal();
+    $('#modal3').modal();
+    $('#modal4').modal();
+    $('#modal5').modal();
+    $('#modal6').modal();
+    $('#modal7').modal();
+    $('#modal8').modal();
+    $('#modal9').modal();
+    $('#modal10').modal();
+    $('#modal11').modal();
+    $('#modal12').modal();
+    $('#modal13').modal();
+    $('#modal14').modal();
+    $('#modal15').modal();
+    $('#modal16').modal();
+    $('#modal17').modal();
+    $('#modal18').modal();
+    $('#modal19').modal();
+    $('#modal20').modal();
 
+  });
