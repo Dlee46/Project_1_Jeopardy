@@ -26,6 +26,9 @@ $(document).ready(function () {
         else {
             total = total - 100;
         }
+        $('#hide2').on('click', function () {
+            $('#lifeone').hide('test');
+            })
         $('#score').html(total)
     });
     $('#modal3').modal();
@@ -38,6 +41,9 @@ $(document).ready(function () {
         else {
             total = total - 100;
         }
+        $('#hide3').on('click', function () {
+            $('#mathone').hide('test');
+            })
         $('#score').html(total)
     });
     $('#modal4').modal();
@@ -50,6 +56,9 @@ $(document).ready(function () {
         else {
             total = total - 100;
         }
+        $('#hide4').on('click', function () {
+            $('#societyone').hide('test');
+            })
         $('#score').html(total)
     });
     $('#modal5').modal();
@@ -62,6 +71,9 @@ $(document).ready(function () {
         else {
             total = total - 200;
         }
+        $('#hide5').on('click', function () {
+            $('#musictwo').hide('test');
+            })
         $('#score').html(total)
     });
     $('#modal6').modal();
@@ -74,6 +86,9 @@ $(document).ready(function () {
         else {
             total = total - 200;
         }
+        $('#hide6').on('click', function () {
+            $('#lifetwo').hide('test');
+            })
         $('#score').html(total)
     });
     $('#modal7').modal();
@@ -86,6 +101,9 @@ $(document).ready(function () {
         else {
             total = total - 200;
         }
+        $('#hide7').on('click', function () {
+            $('#mathtwo').hide('test');
+            })
         $('#score').html(total)
     });
     $('#modal8').modal();
@@ -98,6 +116,9 @@ $(document).ready(function () {
         else {
             total = total - 200;
         }
+        $('#hide8').on('click', function () {
+            $('#societytwo').hide('test');
+            })
         $('#score').html(total)
     });
     $('#modal9').modal();
@@ -109,7 +130,9 @@ $(document).ready(function () {
         }
         else {
             total = total - 300;
-        }
+        }$('#hide9').on('click', function () {
+            $('#musicthree').hide('test');
+            })
         $('#score').html(total)
     });
     $('#modal10').modal();
@@ -122,6 +145,9 @@ $(document).ready(function () {
         else {
             total = total - 300;
         }
+        $('#hide10').on('click', function () {
+            $('#lifethree').hide('test');
+            })
         $('#score').html(total)
     });
     $('#modal11').modal();
@@ -134,6 +160,9 @@ $(document).ready(function () {
         else {
             total = total - 300;
         }
+        $('#hide11').on('click', function () {
+            $('#maththree').hide('test');
+            })
         $('#score').html(total)
     });
     $('#modal12').modal();
@@ -146,6 +175,9 @@ $(document).ready(function () {
         else {
             total = total - 300;
         }
+        $('#hide12').on('click', function () {
+            $('#societythree').hide('test');
+            })
         $('#score').html(total)
     });
     $('#modal13').modal();
@@ -158,6 +190,9 @@ $(document).ready(function () {
         else {
             total = total - 400;
         }
+        $('#hide13').on('click', function () {
+            $('#musicfour').hide('test');
+            })
         $('#score').html(total)
     });
     $('#modal14').modal();
@@ -170,6 +205,9 @@ $(document).ready(function () {
         else {
             total = total - 400;
         }
+        $('#hide14').on('click', function () {
+            $('#lifefour').hide('test');
+            })
         $('#score').html(total)
     });
     $('#modal15').modal();
@@ -182,6 +220,9 @@ $(document).ready(function () {
         else {
             total = total - 400;
         }
+        $('#hide15').on('click', function () {
+            $('#mathfour').hide('test');
+            })
         $('#score').html(total)
     });
     $('#modal16').modal();
@@ -194,6 +235,9 @@ $(document).ready(function () {
         else {
             total = total - 400;
         }
+        $('#hide16').on('click', function () {
+            $('#societyfour').hide('test');
+            })
         $('#score').html(total)
     });
     $('#modal17').modal();
@@ -206,6 +250,9 @@ $(document).ready(function () {
         else {
             total = total - 500;
         }
+        $('#hide17').on('click', function () {
+            $('#musicfive').hide('test');
+            })
         $('#score').html(total)
     });
     $('#modal18').modal();
@@ -218,6 +265,9 @@ $(document).ready(function () {
         else {
             total = total - 500;
         }
+        $('#hide18').on('click', function () {
+            $('#lifefive').hide('test');
+            })
         $('#score').html(total)
     });
     $('#modal19').modal();
@@ -230,6 +280,9 @@ $(document).ready(function () {
         else {
             total = total - 500;
         }
+        $('#hide19').on('click', function () {
+            $('#mathfive').hide('test');
+            })
         $('#score').html(total)
     });
     $('#modal20').modal();
@@ -242,6 +295,9 @@ $(document).ready(function () {
         else {
             total = total - 500;
         }
+        $('#hide20').on('click', function () {
+            $('#societyfive').hide('test');
+            })
         $('#score').html(total)
     });
     $('i').click(function () {
