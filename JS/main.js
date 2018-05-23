@@ -1,12 +1,16 @@
 $(document).ready(function () {
-    const total = 0
+    let total = 0
     $('#modal1').modal()
         $('#que1 input').on('change', function () {
             let ans1 = ($('input[name=group1]:checked', '#que1').val())
-            if (ans1 === 'michaeljackson')
-            console.log(true)
-            else console.log (false);
-        })
+            if (ans1 === 'music100b') {
+            total = total + 100;
+        }
+            else {
+                total = total - 100;
+            }
+            $('#score').html(total)
+        });
         $('#modal2').modal();
         $('#modal3').modal();
         $('#modal4').modal();
