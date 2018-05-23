@@ -10,8 +10,8 @@ $(document).ready(function () {
         else {
             total = total - 100;
         }
-        $('#modal1').on('click', function () {
-                console.log($(this).hide());
+        $('#hide1').on('click', function () {
+                $('#musicone').hide('test');
                 })
         $('#score').html(total)
         // $("#modal1").modal('close')
