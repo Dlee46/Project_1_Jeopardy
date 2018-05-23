@@ -15,761 +15,763 @@
 
     <div class="container">
         <div class="row">
-            <div class="col s12">
+
+
+            <div class="col s12 m4 l2">
+                <p id="score">
+                    0
+                </p>
+            </div>
+            <div class="col s12 m4 l8">
                 <h1>Jeopardy</h1>
             </div>
-            <div class="row">
-                <div class="col s6">
-                    <p id="score">
-                        0
-                    </p>
-                </div>
-                <div class="col s6">
+            <div class="col s12 m4 l2">
                 <p>
                     <i class="medium material-icons">refresh</i>
                 </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s12 m6 l3">
-                <h3>Music</h3>
-            </div>
-            <div class="col s12 m6 l3">
-                <h3>Life</h3>
-            </div>
-            <div class="col s12 m6 l3">
-                <h3>Math</h3>
-            </div>
-            <div class="col s12 m6 l3">
-                <h3>Society</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div id="musicone" class="col s12 m6 l3">
-                <button data-target="modal1" class="btn-large modal-trigger">100</button>
 
-                <div id="modal1" class="modal">
-                    <div id="music-100" class="modal-content">
-                        <h4>Music 100</h4>
-                        <p>
-                            <form id="que1" action="#">
-                                <h5>He is the "King of Pop."</h5>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="music100a" />
-                                        <span>Who is Prince?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="music100b" />
-                                        <span>Who is Michael Jackson?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="music100c" />
-                                        <span>Who is Elvis Presley?</span>
-                                    </label>
-                                </p>
-                            </form>
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m6 l3">
+                    <h3>Music</h3>
                 </div>
-
-            </div>
-            <div id="lifeone" class="col s12 m6 l3">
-                <button data-target="modal2" class="btn-large modal-trigger">100</button>
-
-                <div id="modal2" class="modal">
-                    <div class="modal-content">
-                        <h4>Life 100</h4>
-                        <p>
-                            <form id="que2" action="#">
-                                <h5>The life expectancy has increased in the past 200,000 years.</h5>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="life100a" />
-                                        <span>Is it by 100 years?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="life100b" />
-                                        <span>Is it by 20 years?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="life100c" />
-                                        <span>Is it by 50 years?</span>
-                                    </label>
-                                </p>
-                            </form>
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
-                    </div>
+                <div class="col s12 m6 l3">
+                    <h3>Life</h3>
+                </div>
+                <div class="col s12 m6 l3">
+                    <h3>Math</h3>
+                </div>
+                <div class="col s12 m6 l3">
+                    <h3>Society</h3>
                 </div>
             </div>
-            <div id="mathone" class="col s12 m6 l3">
-                <button data-target="modal3" class="btn-large modal-trigger">100</button>
+            <div class="row">
+                <div id="musicone" class="col s12 m6 l3">
+                    <button data-target="modal1" class="btn-large modal-trigger">100</button>
 
-                <div id="modal3" class="modal">
-                    <div class="modal-content">
-                        <h4>Math 100</h4>
-                        <p>
-                            <form id="que3" action="#">
-                                <h5>10 is the solution.</h5>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="math100a" />
-                                        <span>Is it 100 divided by 20?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="math100b" />
-                                        <span>Is it 10 times 1?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="math100c" />
-                                        <span>Is it 5 plus 2?</span>
-                                    </label>
-                                </p>
-                            </form>
-                        </p>
+                    <div id="modal1" class="modal">
+                        <div id="music-100" class="modal-content">
+                            <h4>Music 100</h4>
+                            <p>
+                                <form id="que1" action="#">
+                                    <h5>He is the "King of Pop."</h5>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="music100a" />
+                                            <span>Who is Prince?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="music100b" />
+                                            <span>Who is Michael Jackson?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="music100c" />
+                                            <span>Who is Elvis Presley?</span>
+                                        </label>
+                                    </p>
+                                </form>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" id="hide1" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                        </div>
                     </div>
-                    <div class="modal-footer">
-                        <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+
+                </div>
+                <div id="lifeone" class="col s12 m6 l3">
+                    <button data-target="modal2" class="btn-large modal-trigger">100</button>
+
+                    <div id="modal2" class="modal">
+                        <div class="modal-content">
+                            <h4>Life 100</h4>
+                            <p>
+                                <form id="que2" action="#">
+                                    <h5>The life expectancy has increased in the past 200,000 years.</h5>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="life100a" />
+                                            <span>Is it by 100 years?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="life100b" />
+                                            <span>Is it by 20 years?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="life100c" />
+                                            <span>Is it by 50 years?</span>
+                                        </label>
+                                    </p>
+                                </form>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div id="societyone" class="col s12 m6 l3">
-                <button data-target="modal4" class="btn-large modal-trigger">100</button>
+                <div id="mathone" class="col s12 m6 l3">
+                    <button data-target="modal3" class="btn-large modal-trigger">100</button>
 
-                <div id="modal4" class="modal">
-                    <div class="modal-content">
-                        <h4>Society 100</h4>
-                        <p>
-                            <form id="que4" action="#">
-                                <h5>2015 was a historical year for the United States.</h5>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="society100a" />
-                                        <span>Is it because of gay marriage?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="society100b" />
-                                        <span>Is it because Trump became president? </span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="society100c" />
-                                        <span>Is it because of the Mexico Border laws?</span>
-                                    </label>
-                                </p>
-                            </form>
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                    <div id="modal3" class="modal">
+                        <div class="modal-content">
+                            <h4>Math 100</h4>
+                            <p>
+                                <form id="que3" action="#">
+                                    <h5>10 is the solution.</h5>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="math100a" />
+                                            <span>Is it 100 divided by 20?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="math100b" />
+                                            <span>Is it 10 times 1?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="math100c" />
+                                            <span>Is it 5 plus 2?</span>
+                                        </label>
+                                    </p>
+                                </form>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div id="musictwo" class="col s12 m6 l3">
-                <button data-target="modal5" class="btn-large modal-trigger">200</button>
+                <div id="societyone" class="col s12 m6 l3">
+                    <button data-target="modal4" class="btn-large modal-trigger">100</button>
 
-                <div id="modal5" class="modal">
-                    <div class="modal-content">
-                        <h4>Music 200</h4>
-                        <p>
-                            <form id="que5" action="#">
-                                <h5>"Right Now I'm in a State of Mind. I wanna be in like all the time."</h5>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="music200a" />
-                                        <span>Is it Justin Bieber?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="music200b" />
-                                        <span>Is it Selena Gomez?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="music200c" />
-                                        <span>Is it Ariana Grande?</span>
-                                    </label>
-                                </p>
-                            </form>
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
-                    </div>
-                </div>
-
-            </div>
-            <div id="lifetwo" class="col s12 m6 l3">
-                <button data-target="modal6" class="btn-large modal-trigger">200</button>
-
-                <div id="modal6" class="modal">
-                    <div class="modal-content">
-                        <h4>Life 200</h4>
-                        <p>
-                            <form id="que6" action="#">
-                                <h5>May 22, 2017 was a horrifying day for Ariana Grande.</h5>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="life200a" />
-                                        <span>Is it because of bad scandal?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="life200b" />
-                                        <span>Is it because of the Manchester Bombing?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="life200c" />
-                                        <span>Is it because of the Boston Marathon Bombing?</span>
-                                    </label>
-                                </p>
-                            </form>
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                    <div id="modal4" class="modal">
+                        <div class="modal-content">
+                            <h4>Society 100</h4>
+                            <p>
+                                <form id="que4" action="#">
+                                    <h5>2015 was a historical year for the United States.</h5>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="society100a" />
+                                            <span>Is it because of gay marriage?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="society100b" />
+                                            <span>Is it because Trump became president? </span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="society100c" />
+                                            <span>Is it because of the Mexico Border laws?</span>
+                                        </label>
+                                    </p>
+                                </form>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div id="mathtwo" class="col s12 m6 l3">
-                <button data-target="modal7" class="btn-large modal-trigger">200</button>
+            <div class="row">
+                <div id="musictwo" class="col s12 m6 l3">
+                    <button data-target="modal5" class="btn-large modal-trigger">200</button>
 
-                <div id="modal7" class="modal">
-                    <div class="modal-content">
-                        <h4>Math 200</h4>
-                        <p>
-                            <form id="que7" action="#">
-                                <h5>The solution is 50.</h5>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="math200a" />
-                                        <span>Is it 50 times 2 divided by 4 times 3?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="math200b" />
-                                        <span>Is it 900 times 6 divied by 108?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="math200c" />
-                                        <span>Is it 200 minus 100 plus 300 divided by 6?</span>
-                                    </label>
-                                </p>
-                            </form>
-                        </p>
+                    <div id="modal5" class="modal">
+                        <div class="modal-content">
+                            <h4>Music 200</h4>
+                            <p>
+                                <form id="que5" action="#">
+                                    <h5>"Right Now I'm in a State of Mind. I wanna be in like all the time."</h5>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="music200a" />
+                                            <span>Is it Justin Bieber?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="music200b" />
+                                            <span>Is it Selena Gomez?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="music200c" />
+                                            <span>Is it Ariana Grande?</span>
+                                        </label>
+                                    </p>
+                                </form>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                        </div>
                     </div>
-                    <div class="modal-footer">
-                        <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+
+                </div>
+                <div id="lifetwo" class="col s12 m6 l3">
+                    <button data-target="modal6" class="btn-large modal-trigger">200</button>
+
+                    <div id="modal6" class="modal">
+                        <div class="modal-content">
+                            <h4>Life 200</h4>
+                            <p>
+                                <form id="que6" action="#">
+                                    <h5>May 22, 2017 was a horrifying day for Ariana Grande.</h5>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="life200a" />
+                                            <span>Is it because of bad scandal?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="life200b" />
+                                            <span>Is it because of the Manchester Bombing?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="life200c" />
+                                            <span>Is it because of the Boston Marathon Bombing?</span>
+                                        </label>
+                                    </p>
+                                </form>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="mathtwo" class="col s12 m6 l3">
+                    <button data-target="modal7" class="btn-large modal-trigger">200</button>
+
+                    <div id="modal7" class="modal">
+                        <div class="modal-content">
+                            <h4>Math 200</h4>
+                            <p>
+                                <form id="que7" action="#">
+                                    <h5>The solution is 50.</h5>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="math200a" />
+                                            <span>Is it 50 times 2 divided by 4 times 3?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="math200b" />
+                                            <span>Is it 900 times 6 divied by 108?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="math200c" />
+                                            <span>Is it 200 minus 100 plus 300 divided by 6?</span>
+                                        </label>
+                                    </p>
+                                </form>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="societytwo" class="col s12 m6 l3">
+                    <button data-target="modal8" class="btn-large modal-trigger">200</button>
+
+                    <div id="modal8" class="modal">
+                        <div class="modal-content">
+                            <h4>Society 200</h4>
+                            <p>
+                                <form id="que8" action="#">
+                                    <h5>I am stigmatized by society's view and have an expectation to follow behind my partner.</h5>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="society200a" />
+                                            <span>Am I a Man?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="society200b" />
+                                            <span>Am I a Women?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="society200c" />
+                                            <span>Am I a pet?</span>
+                                        </label>
+                                    </p>
+                                </form>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div id="societytwo" class="col s12 m6 l3">
-                <button data-target="modal8" class="btn-large modal-trigger">200</button>
 
-                <div id="modal8" class="modal">
-                    <div class="modal-content">
-                        <h4>Society 200</h4>
-                        <p>
-                            <form id="que8" action="#">
-                                <h5>I am stigmatized by society's view and have an expectation to follow behind my partner.</h5>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="society200a" />
-                                        <span>Am I a Man?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="society200b" />
-                                        <span>Am I a Women?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="society200c" />
-                                        <span>Am I a pet?</span>
-                                    </label>
-                                </p>
-                            </form>
-                        </p>
+            <div class="row">
+                <div id="musicthree" class="col s12 m6 l3">
+                    <button data-target="modal9" class="btn-large modal-trigger">300</button>
+
+                    <div id="modal9" class="modal">
+                        <div class="modal-content">
+                            <h4>Music 300</h4>
+                            <p>
+                                <form id="que9" action="#">
+                                    <h5>There was EDM Music Festival in Atlanta this May.</h5>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="music300a" />
+                                            <span>Is it Coachella?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="music300b" />
+                                            <span>Is it EZoo?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="music300c" />
+                                            <span>Is it Shaky Beats?</span>
+                                        </label>
+                                    </p>
+                                </form>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                        </div>
                     </div>
-                    <div class="modal-footer">
-                        <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                </div>
+                <div id="lifethree" class="col s12 m6 l3">
+                    <button data-target="modal10" class="btn-large modal-trigger">300</button>
+
+                    <div id="modal10" class="modal">
+                        <div class="modal-content">
+                            <h4>Life 300</h4>
+                            <p>
+                                <form id="que10" action="#">
+                                    <h5>I produce 70% of the oxygen that human's breath.</h5>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="life300a" />
+                                            <span>Is it plants?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="life300b" />
+                                            <span>Is it the ocean?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="life300c" />
+                                            <span>Is it air purifiers?</span>
+                                        </label>
+                                    </p>
+                                </form>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="maththree" class="col s12 m6 l3">
+                    <button data-target="modal11" class="btn-large modal-trigger">300</button>
+
+                    <div id="modal11" class="modal">
+                        <div class="modal-content">
+                            <h4>Math 300</h4>
+                            <p>
+                                <form id="que11" action="#">
+                                    <h5>68 is the result.</h5>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="math300a" />
+                                            <span>Is it 34 plus 33?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="math300b" />
+                                            <span>Is it 68 === 68?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="math300c" />
+                                            <span>Is it 68 = "68"?</span>
+                                        </label>
+                                    </p>
+                                </form>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="societythree" class="col s12 m6 l3">
+                    <button data-target="modal12" class="btn-large modal-trigger">300</button>
+
+                    <div id="modal12" class="modal">
+                        <div class="modal-content">
+                            <h4>Society 300</h4>
+                            <p>
+                                <form id="que12" action="#">
+                                    <h5>The percentage of the people who believe in a god has decreased in the United States
+                                        from a study in 2013.</h5>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="society300a" />
+                                            <span>Is it by 8%?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="society300b" />
+                                            <span>Is it by 74%?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="society300c" />
+                                            <span>Is it by 14%?</span>
+                                        </label>
+                                    </p>
+                                </form>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="row">
+                <div id="musicfour" class="col s12 m6 l3">
+                    <button data-target="modal13" class="btn-large modal-trigger">400</button>
 
-        <div class="row">
-            <div id="musicthree" class="col s12 m6 l3">
-                <button data-target="modal9" class="btn-large modal-trigger">300</button>
-
-                <div id="modal9" class="modal">
-                    <div class="modal-content">
-                        <h4>Music 300</h4>
-                        <p>
-                            <form id="que9" action="#">
-                                <h5>There was EDM Music Festival in Atlanta this May.</h5>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="music300a" />
-                                        <span>Is it Coachella?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="music300b" />
-                                        <span>Is it EZoo?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="music300c" />
-                                        <span>Is it Shaky Beats?</span>
-                                    </label>
-                                </p>
-                            </form>
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                    <div id="modal13" class="modal">
+                        <div class="modal-content">
+                            <h4>Music 400</h4>
+                            <p>
+                                <form id="que13" action="#">
+                                    <h5>Recently in 2018 a famous celebrity passed away.</h5>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="music400a" />
+                                            <span>Is it Hugh Hefner? </span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="music400b" />
+                                            <span>Is it Avicii?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="music400c" />
+                                            <span>Is it John Hurt?</span>
+                                        </label>
+                                    </p>
+                                </form>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div id="lifethree" class="col s12 m6 l3">
-                <button data-target="modal10" class="btn-large modal-trigger">300</button>
+                <div id="lifefour" class="col s12 m6 l3">
+                    <button data-target="modal14" class="btn-large modal-trigger">400</button>
 
-                <div id="modal10" class="modal">
-                    <div class="modal-content">
-                        <h4>Life 300</h4>
-                        <p>
-                            <form id="que10" action="#">
-                                <h5>I produce 70% of the oxygen that human's breath.</h5>
-                                <p>
+                    <div id="modal14" class="modal">
+                        <div class="modal-content">
+                            <h4>Life 400</h4>
+                            <p>
+                                <form id="que14" action="#">
+                                    <h5>Researchers found that doing this will temoporarily change a person's visual perception
+                                        and affect what they think and see. </h5>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="life400a" />
+                                            <span>Is it daydreaming?</span>
+                                        </label>
+                                    </p>
                                     <label>
-                                        <input class="with-gap" name="group1" type="radio" value="life300a" />
-                                        <span>Is it plants?</span>
+                                        <input class="with-gap" name="group1" type="radio" value="life400b" />
+                                        <span>Is it listening to music?</span>
                                     </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="life300b" />
-                                        <span>Is it the ocean?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="life300c" />
-                                        <span>Is it air purifiers?</span>
-                                    </label>
-                                </p>
-                            </form>
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
-                    </div>
-                </div>
-            </div>
-            <div id="maththree" class="col s12 m6 l3">
-                <button data-target="modal11" class="btn-large modal-trigger">300</button>
-
-                <div id="modal11" class="modal">
-                    <div class="modal-content">
-                        <h4>Math 300</h4>
-                        <p>
-                            <form id="que11" action="#">
-                                <h5>68 is the result.</h5>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="math300a" />
-                                        <span>Is it 34 plus 33?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="math300b" />
-                                        <span>Is it 68 === 68?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="math300c" />
-                                        <span>Is it 68 = "68"?</span>
-                                    </label>
-                                </p>
-                            </form>
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
-                    </div>
-                </div>
-            </div>
-            <div id="societythree" class="col s12 m6 l3">
-                <button data-target="modal12" class="btn-large modal-trigger">300</button>
-
-                <div id="modal12" class="modal">
-                    <div class="modal-content">
-                        <h4>Society 300</h4>
-                        <p>
-                            <form id="que12" action="#">
-                                <h5>The percentage of the people who believe in a god has decreased in the United States from
-                                    a study in 2013.</h5>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="society300a" />
-                                        <span>Is it by 8%?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="society300b" />
-                                        <span>Is it by 74%?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="society300c" />
-                                        <span>Is it by 14%?</span>
-                                    </label>
-                                </p>
-                            </form>
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div id="musicfour" class="col s12 m6 l3">
-                <button data-target="modal13" class="btn-large modal-trigger">400</button>
-
-                <div id="modal13" class="modal">
-                    <div class="modal-content">
-                        <h4>Music 400</h4>
-                        <p>
-                            <form id="que13" action="#">
-                                <h5>Recently in 2018 a famous celebrity passed away.</h5>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="music400a" />
-                                        <span>Is it Hugh Hefner? </span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="music400b" />
-                                        <span>Is it Avicii?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="music400c" />
-                                        <span>Is it John Hurt?</span>
-                                    </label>
-                                </p>
-                            </form>
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
-                    </div>
-                </div>
-            </div>
-            <div id="lifefour" class="col s12 m6 l3">
-                <button data-target="modal14" class="btn-large modal-trigger">400</button>
-
-                <div id="modal14" class="modal">
-                    <div class="modal-content">
-                        <h4>Life 400</h4>
-                        <p>
-                            <form id="que14" action="#">
-                                <h5>Researchers found that doing this will temoporarily change a person's visual perception and
-                                    affect what they think and see. </h5>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="life400a" />
-                                        <span>Is it daydreaming?</span>
-                                    </label>
-                                </p>
+                            </p>
+                            <p>
                                 <label>
-                                    <input class="with-gap" name="group1" type="radio" value="life400b" />
-                                    <span>Is it listening to music?</span>
+                                    <input class="with-gap" name="group1" type="radio" value="life400c" />
+                                    <span>Is it sleeping?</span>
                                 </label>
-                        </p>
-                        <p>
-                            <label>
-                                <input class="with-gap" name="group1" type="radio" value="life400c" />
-                                <span>Is it sleeping?</span>
-                            </label>
-                        </p>
-                        </form>
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
-                    </div>
-                </div>
-            </div>
-            <div id="mathfour" class="col s12 m6 l3">
-                <button data-target="modal15" class="btn-large modal-trigger">400</button>
-
-                <div id="modal15" class="modal">
-                    <div class="modal-content">
-                        <h4>Math 400</h4>
-                        <p>
-                            <form id="que15" action="#">
-                                <h5>Pi in numerical form.</h5>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="math400a" />
-                                        <span>3.141592</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="math400b" />
-                                        <span>3.141495</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="math400c" />
-                                        <span>3.141692</span>
-                                    </label>
-                                </p>
+                            </p>
                             </form>
-                        </p>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                        </div>
                     </div>
-                    <div class="modal-footer">
-                        <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                </div>
+                <div id="mathfour" class="col s12 m6 l3">
+                    <button data-target="modal15" class="btn-large modal-trigger">400</button>
+
+                    <div id="modal15" class="modal">
+                        <div class="modal-content">
+                            <h4>Math 400</h4>
+                            <p>
+                                <form id="que15" action="#">
+                                    <h5>Pi in numerical form.</h5>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="math400a" />
+                                            <span>3.141592</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="math400b" />
+                                            <span>3.141495</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="math400c" />
+                                            <span>3.141692</span>
+                                        </label>
+                                    </p>
+                                </form>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="societyfour" class="col s12 m6 l3">
+                    <button data-target="modal16" class="btn-large modal-trigger">400</button>
+
+                    <div id="modal16" class="modal">
+                        <div class="modal-content">
+                            <h4>Society 400</h4>
+                            <p>
+                                <form id="que16" action="#">
+                                    <h5>Stoic, Distant, Emotionally Stable, Strong are all common characteristics to describe
+                                        this living organism.</h5>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="society400a" />
+                                            <span>Is it a Monkey?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="society400b" />
+                                            <span>Is it a Man?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="society400c" />
+                                            <span>Is it a Women?</span>
+                                        </label>
+                                    </p>
+                                </form>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div id="societyfour" class="col s12 m6 l3">
-                <button data-target="modal16" class="btn-large modal-trigger">400</button>
+            <div class="row">
+                <div id="musicfive" class="col s12 m6 l3">
+                    <button data-target="modal17" class="btn-large modal-trigger">500</button>
 
-                <div id="modal16" class="modal">
-                    <div class="modal-content">
-                        <h4>Society 400</h4>
-                        <p>
-                            <form id="que16" action="#">
-                                <h5>Stoic, Distant, Emotionally Stable, Strong are all common characteristics to describe this
-                                    living organism.</h5>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="society400a" />
-                                        <span>Is it a Monkey?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="society400b" />
-                                        <span>Is it a Man?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="society400c" />
-                                        <span>Is it a Women?</span>
-                                    </label>
-                                </p>
-                            </form>
-                        </p>
+                    <div id="modal17" class="modal">
+                        <div class="modal-content">
+                            <h4>Music 500</h4>
+                            <p>
+                                <form id="que17" action="#">
+                                    <h5>The first kpop group to win an award in the Billboard Music Awards.</h5>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="music500a" />
+                                            <span>Is it SNSD?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="music500b" />
+                                            <span>Is it Big Bang?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="music500c" />
+                                            <span>Is it BTS?</span>
+                                        </label>
+                                    </p>
+                                </form>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                        </div>
                     </div>
-                    <div class="modal-footer">
-                        <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                </div>
+                <div id="lifefive" class="col s12 m6 l3">
+                    <button data-target="modal18" class="btn-large modal-trigger">500</button>
+
+                    <div id="modal18" class="modal">
+                        <div class="modal-content">
+                            <h4>Life 500</h4>
+                            <p>
+                                <form id="que18" action="#">
+                                    <h5>The number 1 rule when struggling with a problem.</h5>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="life500a" />
+                                            <span>Is it to ask for the answer?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="life500b" />
+                                            <span>Is it to never give up?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="life500c" />
+                                            <span>Is it to pay someone to resolve it?</span>
+                                        </label>
+                                    </p>
+                                </form>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="mathfive" class="col s12 m6 l3">
+                    <button data-target="modal19" class="btn-large modal-trigger">500</button>
+
+                    <div id="modal19" class="modal">
+                        <div class="modal-content">
+                            <h4>Math 500</h4>
+                            <p>
+                                <form id="que19" action="#">
+                                    <h5>The solution is 4.</h5>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="math500a" />
+                                            <span>If 54 drummers in the marching band are standing in 9 equal rows, how many drummers
+                                                are in each row?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="math500b" />
+                                            <span>If 36 magazines on the bookshelf are neatly organized in 9 equal rows, how many
+                                                magazines are in each row?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="math500c" />
+                                            <span>In the glass case at the jewelry store, there are 4 necklaces in each row and
+                                                24 necklaces all together. How many rows are there?</span>
+                                        </label>
+                                    </p>
+                                </form>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="societyfive" class="col s12 m6 l3">
+                    <button data-target="modal20" class="btn-large modal-trigger">500</button>
+
+                    <div id="modal20" class="modal">
+                        <div class="modal-content">
+                            <h4>Society 500</h4>
+                            <p>
+                                <form id="que20" action="#">
+                                    <h5>Sociology developed in the midst of the social and intellectual upheaval surrounding
+                                        the Industrial Revolution of the 19th century. Three branches of sociology grew from
+                                        roots in three interest groups: social activists a new breed of scientists dedicated
+                                        to applying the scientific approach to society and philosophers interested in humanity's
+                                        social nature.</h5>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="society500a" />
+                                            <span>What sort of questions do sociologists address?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="society500b" />
+                                            <span>What is the scientific method and how can it be applied to the study of sociology?</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group1" type="radio" value="society500c" />
+                                            <span>How did the discipline of sociology develop?</span>
+                                        </label>
+                                    </p>
+                                </form>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div id="musicfive" class="col s12 m6 l3">
-                <button data-target="modal17" class="btn-large modal-trigger">500</button>
 
-                <div id="modal17" class="modal">
-                    <div class="modal-content">
-                        <h4>Music 500</h4>
-                        <p>
-                            <form id="que17" action="#">
-                                <h5>The first kpop group to win an award in the Billboard Music Awards.</h5>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="music500a" />
-                                        <span>Is it SNSD?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="music500b" />
-                                        <span>Is it Big Bang?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="music500c" />
-                                        <span>Is it BTS?</span>
-                                    </label>
-                                </p>
-                            </form>
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
-                    </div>
-                </div>
-            </div>
-            <div id="lifefive" class="col s12 m6 l3">
-                <button data-target="modal18" class="btn-large modal-trigger">500</button>
-
-                <div id="modal18" class="modal">
-                    <div class="modal-content">
-                        <h4>Life 500</h4>
-                        <p>
-                            <form id="que18" action="#">
-                                <h5>The number 1 rule when struggling with a problem.</h5>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="life500a" />
-                                        <span>Is it to ask for the answer?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="life500b" />
-                                        <span>Is it to never give up?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="life500c" />
-                                        <span>Is it to pay someone to resolve it?</span>
-                                    </label>
-                                </p>
-                            </form>
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
-                    </div>
-                </div>
-            </div>
-            <div id="mathfive" class="col s12 m6 l3">
-                <button data-target="modal19" class="btn-large modal-trigger">500</button>
-
-                <div id="modal19" class="modal">
-                    <div class="modal-content">
-                        <h4>Math 500</h4>
-                        <p>
-                            <form id="que19" action="#">
-                                <h5>The solution is 4.</h5>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="math500a" />
-                                        <span>If 54 drummers in the marching band are standing in 9 equal rows, how many drummers
-                                            are in each row?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="math500b" />
-                                        <span>If 36 magazines on the bookshelf are neatly organized in 9 equal rows, how many magazines
-                                            are in each row?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="math500c" />
-                                        <span>In the glass case at the jewelry store, there are 4 necklaces in each row and 24
-                                            necklaces all together. How many rows are there?</span>
-                                    </label>
-                                </p>
-                            </form>
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
-                    </div>
-                </div>
-            </div>
-            <div id="societyfive" class="col s12 m6 l3">
-                <button data-target="modal20" class="btn-large modal-trigger">500</button>
-
-                <div id="modal20" class="modal">
-                    <div class="modal-content">
-                        <h4>Society 500</h4>
-                        <p>
-                            <form id="que20" action="#">
-                                <h5>Sociology developed in the midst of the social and intellectual upheaval surrounding the
-                                    Industrial Revolution of the 19th century. Three branches of sociology grew from roots
-                                    in three interest groups: social activists a new breed of scientists dedicated to applying
-                                    the scientific approach to society and philosophers interested in humanity's social nature.</h5>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="society500a" />
-                                        <span>What sort of questions do sociologists address?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="society500b" />
-                                        <span>What is the scientific method and how can it be applied to the study of sociology?</span>
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        <input class="with-gap" name="group1" type="radio" value="society500c" />
-                                        <span>How did the discipline of sociology develop?</span>
-                                    </label>
-                                </p>
-                            </form>
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="#" class="modal-close waves-effect waves-green btn-flat">Submit</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-        <script src="JS/main.js"></script>
+            <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+            <script src="JS/main.js"></script>
 </body>
 
 </html>

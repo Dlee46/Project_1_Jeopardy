@@ -1,7 +1,7 @@
 $(document).ready(function () {
     let total = 0
     $('#modal1').modal()
-    $('#que1 input').on('change', function () {
+    $('#que1 input').on('close', function () {
         let ans1 = ($('input[name=group1]:checked', '#que1').val())
         if (ans1 === 'music100b') {
             total = total + 100;
@@ -10,9 +10,9 @@ $(document).ready(function () {
             total = total - 100;
         }
         $('#score').html(total)
-        // $("#musicone").modal("hide")
+        // $("#modal1").modal('close')
     })
-    
+
     $('#modal2').modal();
     $('#que2 input').on('change', function () {
         let ans2 = ($('input[name=group1]:checked', '#que2').val())
