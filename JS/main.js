@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    const total = 0
     $('#modal1').modal()
         $('#que1 input').on('change', function () {
             let ans1 = ($('input[name=group1]:checked', '#que1').val())

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <link rel="stylesheet" href="CSS/style.css">
     <title>Project 1</title>
@@ -13,13 +13,20 @@
 
 <body>
 
-    <canvas>
-        <p>0</p>
-    </canvas>
     <div class="container">
         <div class="row">
+            <div>
+                <p id="score">
+                    0
+                </p>
+            </div>
             <div class="col s12">
                 <p>Jeopardy</p>
+            </div>
+            <div class="col s12">
+                <p>
+                    <i class="medium material-icons">refresh</i>
+                </p>
             </div>
         </div>
         <div class="row">
@@ -44,7 +51,7 @@
                     <div id="music-100" class="modal-content">
                         <h4>Music 100</h4>
                         <p>
-                            <form id ="que1" action="#">
+                            <form id="que1" action="#">
                                 <h5>Who is the "King of Pop?"</h5>
                                 <p>
                                     <label>
@@ -83,7 +90,7 @@
                             <form action="#">
                                 <p>
                                     <label>
-                                        <input class="with-gap" name="group1" type="radio" value="music100a"/> 
+                                        <input class="with-gap" name="group1" type="radio" value="music100a" />
                                         <span>Green</span>
                                     </label>
                                 </p>
