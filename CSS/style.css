@@ -4,10 +4,12 @@ body{
     border: 6px solid #004a7c;
     border-radius: 5px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #004a7c;
 
 }
 .container{
-    background: #e8f1f5
+    background: #e8f1f5;
+    padding: 50px;
 }
 .row{
     text-align: center;
@@ -19,13 +21,21 @@ button{
 }
 #score{
     font-size: 35pt;
-    margin: 10px;
-    border: 1px solid black;
+    margin: 0px;
+    border: 3px solid#005691;
 }
 h1{
-    border: 1px solid black;
     margin: 10px;
 }
 i{
-    border: 1px solid black;
+    border: 3px solid #005691;
+    padding: 5px;
 }
+@media only screen and (max-width: 600px) {
+    body {
+        width: 30vmin;
+    }
+}
+/* #jeopardyName {
+    width: 400px;
+} */

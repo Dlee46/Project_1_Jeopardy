@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    // $('h1').prepend('<img id="jeopardyName" src="http://www.myatltv.com/shows/jeopardy/jeopardy_logo.jpg" />')
     let total = 0
     $('#modal1').modal()
     $('#que1 input').on('change', function () {
@@ -9,6 +10,9 @@ $(document).ready(function () {
         else {
             total = total - 100;
         }
+        $('#modal1').on('click', function () {
+                console.log($(this).hide());
+                })
         $('#score').html(total)
         // $("#modal1").modal('close')
     })
