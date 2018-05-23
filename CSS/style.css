@@ -9,5 +9,21 @@ body{
 }
 .row{
     text-align: center;
-    background: #e8f1f5
+    background: #e8f1f5;
+    margin: 5px;
+}
+button{
+    margin: 0;
+}
+#score{
+    font-size: 35pt;
+    margin: 10px;
+    border: 1px solid black;
+}
+h1{
+    border: 1px solid black;
+    margin: 10px;
+}
+i{
+    border: 1px solid black;
 }
