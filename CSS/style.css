@@ -18,12 +18,13 @@ body{
     margin: 5px;
 }
 button{
-    margin: 0;
+    width:150px;
 }
 #score{
     font-size: 35pt;
     margin: 0px;
     border: 3px solid#005691;
+    background-color: #fafafa;
 }
 i:hover {
     cursor: pointer;
@@ -31,9 +32,14 @@ i:hover {
 h1{
     margin: 10px;
 }
+h3{
+    border: 2px solid #005691;
+    background-color: #fafafa;
+}
 i{
     border: 3px solid #005691;
     padding: 5px;
+    background-color: #fafafa;
 }
 #ending, #points{
     font-size: 75px;
@@ -46,10 +52,7 @@ i{
     margin:0;
 }
 @media only screen and (max-width: 600px) {
-    body {
+    .container {
         width: 30vmin;
     }
 }
-/* #jeopardyName {
-    width: 400px;
-} */
