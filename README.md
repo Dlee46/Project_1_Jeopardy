@@ -11,6 +11,7 @@ Jeopardy is a quiz game where the user gets to choose the next question by choos
 * `Materialize`
 * `JQuery`
 * `Google Font`
+* `JavaScript`
 
 ## Project
 [Jeopardy](stupefied-panini-475990.bitballoon.com)
