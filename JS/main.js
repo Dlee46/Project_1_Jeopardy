@@ -1,5 +1,6 @@
 $(document).ready(function () {
     // $('h1').prepend('<img id="jeopardyName" src="http://www.myatltv.com/shows/jeopardy/jeopardy_logo.jpg" />')
+    let final = 0
     let total = 0
     $('#modal1').modal()
     $('#que1 input').on('change', function () {
@@ -14,6 +15,7 @@ $(document).ready(function () {
                 $('#musicone').hide('test');
                 })
         $('#score').html(total)
+        final += 1
         // $("#modal1").modal('close')
     })
 
@@ -30,6 +32,7 @@ $(document).ready(function () {
             $('#lifeone').hide('test');
             })
         $('#score').html(total)
+        final += 1
     });
     $('#modal3').modal();
     // b
@@ -45,6 +48,7 @@ $(document).ready(function () {
             $('#mathone').hide('test');
             })
         $('#score').html(total)
+        final += 1
     });
     $('#modal4').modal();
     // a
@@ -60,6 +64,7 @@ $(document).ready(function () {
             $('#societyone').hide('test');
             })
         $('#score').html(total)
+        final += 1
     });
     $('#modal5').modal();
     // c
@@ -75,6 +80,7 @@ $(document).ready(function () {
             $('#musictwo').hide('test');
             })
         $('#score').html(total)
+        final += 1
     });
     $('#modal6').modal();
     // b
@@ -90,6 +96,7 @@ $(document).ready(function () {
             $('#lifetwo').hide('test');
             })
         $('#score').html(total)
+        final += 1
     });
     $('#modal7').modal();
     // b
@@ -105,6 +112,7 @@ $(document).ready(function () {
             $('#mathtwo').hide('test');
             })
         $('#score').html(total)
+        final += 1
     });
     $('#modal8').modal();
     // b
@@ -120,6 +128,7 @@ $(document).ready(function () {
             $('#societytwo').hide('test');
             })
         $('#score').html(total)
+        final += 1
     });
     $('#modal9').modal();
     // c
@@ -134,6 +143,7 @@ $(document).ready(function () {
             $('#musicthree').hide('test');
             })
         $('#score').html(total)
+        final += 1
     });
     $('#modal10').modal();
     // b
@@ -149,6 +159,7 @@ $(document).ready(function () {
             $('#lifethree').hide('test');
             })
         $('#score').html(total)
+        final += 1
     });
     $('#modal11').modal();
     // b
@@ -179,6 +190,7 @@ $(document).ready(function () {
             $('#societythree').hide('test');
             })
         $('#score').html(total)
+        final += 1
     });
     $('#modal13').modal();
     // b
@@ -194,6 +206,7 @@ $(document).ready(function () {
             $('#musicfour').hide('test');
             })
         $('#score').html(total)
+        final += 1
     });
     $('#modal14').modal();
     // b
@@ -209,6 +222,7 @@ $(document).ready(function () {
             $('#lifefour').hide('test');
             })
         $('#score').html(total)
+        final += 1
     });
     $('#modal15').modal();
     // a
@@ -224,6 +238,7 @@ $(document).ready(function () {
             $('#mathfour').hide('test');
             })
         $('#score').html(total)
+        final += 1
     });
     $('#modal16').modal();
     // b
@@ -239,6 +254,7 @@ $(document).ready(function () {
             $('#societyfour').hide('test');
             })
         $('#score').html(total)
+        final += 1
     });
     $('#modal17').modal();
     // c
@@ -254,6 +270,7 @@ $(document).ready(function () {
             $('#musicfive').hide('test');
             })
         $('#score').html(total)
+        final += 1
     });
     $('#modal18').modal();
     // b
@@ -269,6 +286,7 @@ $(document).ready(function () {
             $('#lifefive').hide('test');
             })
         $('#score').html(total)
+        final += 1
     });
     $('#modal19').modal();
     // b
@@ -284,6 +302,7 @@ $(document).ready(function () {
             $('#mathfive').hide('test');
             })
         $('#score').html(total)
+        final += 1
     });
     $('#modal20').modal();
     // c
@@ -296,11 +315,32 @@ $(document).ready(function () {
             total = total - 500;
         }
         $('#hide20').on('click', function () {
-            $('#societyfive').hide('test');
+            $('#societyfive').hide()
+            
+            
             })
         $('#score').html(total)
+        final += 1
+        console.log(final)
     });
     $('i').click(function () {
         window.location.href = "./"
     });
-});
+    $('.modal a').on("click", function(){
+        if (final === 1) {
+            alert("hi")
+        }
+    })
+    
+        
+    
+        
+//  const hideStuff = [$('#musicone'), $('#musictwo'), $('#musicthree'), $('#musicfour'), $('#musicfive'), $('#lifeone'), $('#lifetwo'), $('#lifethree'), $('#lifefour'), $('#lifefive'), $('#mathone'), $('#mathtwo'), $('#maththree'), $('#mathfour'), $('#mathfive'), $('#societyone'), $('#societytwo'), $('#societythree'), $('#societyfour'), $('#societyfive')]
+    // const hideStuff = [$('#musicone')]
+    // hideStuff.forEach(function () {
+    //     if ($(this).css('display') == 'none')
+    //         console.log("true")
+    //     else {
+    //         console.log('false')
+    //     }
+})
