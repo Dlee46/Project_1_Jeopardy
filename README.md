@@ -6,7 +6,11 @@ Jeopardy is a quiz game where the user gets to choose the next question by choos
 
 ## Wire Frame
 [FIGMA](https://www.figma.com/file/VWniy90gB1cxxOc43Bh1gGqX/Project-1?node-id=2%3A46)
+
+## Libraries Used
 * `Materialize`
 * `JQuery`
 * `Google Font`
 
+## Project
+[Jeopardy]
