@@ -12,8 +12,8 @@ $(document).ready(function () {
             total = total - 100;
         }
         $('#hide1').on('click', function () {
-                $('#musicone').hide('test');
-                })
+            $('#musicone').hide('test');
+        })
         $('#score').html(total)
         final += 1
         // $("#modal1").modal('close')
@@ -30,7 +30,7 @@ $(document).ready(function () {
         }
         $('#hide2').on('click', function () {
             $('#lifeone').hide('test');
-            })
+        })
         $('#score').html(total)
         final += 1
     });
@@ -46,7 +46,7 @@ $(document).ready(function () {
         }
         $('#hide3').on('click', function () {
             $('#mathone').hide('test');
-            })
+        })
         $('#score').html(total)
         final += 1
     });
@@ -62,7 +62,7 @@ $(document).ready(function () {
         }
         $('#hide4').on('click', function () {
             $('#societyone').hide('test');
-            })
+        })
         $('#score').html(total)
         final += 1
     });
@@ -78,7 +78,7 @@ $(document).ready(function () {
         }
         $('#hide5').on('click', function () {
             $('#musictwo').hide('test');
-            })
+        })
         $('#score').html(total)
         final += 1
     });
@@ -94,7 +94,7 @@ $(document).ready(function () {
         }
         $('#hide6').on('click', function () {
             $('#lifetwo').hide('test');
-            })
+        })
         $('#score').html(total)
         final += 1
     });
@@ -110,7 +110,7 @@ $(document).ready(function () {
         }
         $('#hide7').on('click', function () {
             $('#mathtwo').hide('test');
-            })
+        })
         $('#score').html(total)
         final += 1
     });
@@ -126,7 +126,7 @@ $(document).ready(function () {
         }
         $('#hide8').on('click', function () {
             $('#societytwo').hide('test');
-            })
+        })
         $('#score').html(total)
         final += 1
     });
@@ -139,9 +139,9 @@ $(document).ready(function () {
         }
         else {
             total = total - 300;
-        }$('#hide9').on('click', function () {
+        } $('#hide9').on('click', function () {
             $('#musicthree').hide('test');
-            })
+        })
         $('#score').html(total)
         final += 1
     });
@@ -157,7 +157,7 @@ $(document).ready(function () {
         }
         $('#hide10').on('click', function () {
             $('#lifethree').hide('test');
-            })
+        })
         $('#score').html(total)
         final += 1
     });
@@ -173,7 +173,7 @@ $(document).ready(function () {
         }
         $('#hide11').on('click', function () {
             $('#maththree').hide('test');
-            })
+        })
         $('#score').html(total)
     });
     $('#modal12').modal();
@@ -188,7 +188,7 @@ $(document).ready(function () {
         }
         $('#hide12').on('click', function () {
             $('#societythree').hide('test');
-            })
+        })
         $('#score').html(total)
         final += 1
     });
@@ -204,7 +204,7 @@ $(document).ready(function () {
         }
         $('#hide13').on('click', function () {
             $('#musicfour').hide('test');
-            })
+        })
         $('#score').html(total)
         final += 1
     });
@@ -220,7 +220,7 @@ $(document).ready(function () {
         }
         $('#hide14').on('click', function () {
             $('#lifefour').hide('test');
-            })
+        })
         $('#score').html(total)
         final += 1
     });
@@ -236,7 +236,7 @@ $(document).ready(function () {
         }
         $('#hide15').on('click', function () {
             $('#mathfour').hide('test');
-            })
+        })
         $('#score').html(total)
         final += 1
     });
@@ -252,7 +252,7 @@ $(document).ready(function () {
         }
         $('#hide16').on('click', function () {
             $('#societyfour').hide('test');
-            })
+        })
         $('#score').html(total)
         final += 1
     });
@@ -268,7 +268,7 @@ $(document).ready(function () {
         }
         $('#hide17').on('click', function () {
             $('#musicfive').hide('test');
-            })
+        })
         $('#score').html(total)
         final += 1
     });
@@ -284,7 +284,7 @@ $(document).ready(function () {
         }
         $('#hide18').on('click', function () {
             $('#lifefive').hide('test');
-            })
+        })
         $('#score').html(total)
         final += 1
     });
@@ -300,7 +300,7 @@ $(document).ready(function () {
         }
         $('#hide19').on('click', function () {
             $('#mathfive').hide('test');
-            })
+        })
         $('#score').html(total)
         final += 1
     });
@@ -316,33 +316,21 @@ $(document).ready(function () {
         }
         $('#hide20').on('click', function () {
             $('#societyfive').hide()
-            
-            
-            })
+        })
         $('#score').html(total)
         final += 1
-        console.log(final)
     });
     $('i').click(function () {
         window.location.href = "./"
     });
-    $('.modal a').on("click", function(){
+    $('.modal a').on("click", function () {
         if (final === 1) {
             $('container').replaceWith(
-                $('.row').html("<img src='https://media2.giphy.com/media/xT8qBepJQzUjXpeWU8/giphy.gif'>")
-            )
+                $('.row').html("<img src='https://media2.giphy.com/media/xT8qBepJQzUjXpeWU8/giphy.gif'>"),
+                $('#ending').html("Congragulations!"),
+                $('#points').html(total),
+                $('#play').html('<button type="button" onclick="history.back();">Play Again?</button>')
+        )
         }
     })
-    
-
-    
-        
-//  const hideStuff = [$('#musicone'), $('#musictwo'), $('#musicthree'), $('#musicfour'), $('#musicfive'), $('#lifeone'), $('#lifetwo'), $('#lifethree'), $('#lifefour'), $('#lifefive'), $('#mathone'), $('#mathtwo'), $('#maththree'), $('#mathfour'), $('#mathfive'), $('#societyone'), $('#societytwo'), $('#societythree'), $('#societyfour'), $('#societyfive')]
-    // const hideStuff = [$('#musicone')]
-    // hideStuff.forEach(function () {
-    //     if ($(this).css('display') == 'none')
-    //         console.log("true")
-    //     else {
-    //         console.log('false')
-    //     }
 })
