@@ -175,6 +175,7 @@ $(document).ready(function () {
             $('#maththree').hide('test');
         })
         $('#score').html(total)
+        final += 1
     });
     $('#modal12').modal();
     // a
@@ -323,14 +324,16 @@ $(document).ready(function () {
     $('i').click(function () {
         window.location.href = "./"
     });
+
     $('.modal a').on("click", function () {
-        if (final === 1) {
+        console.log(final)
+        if (final === 20) {
             $('container').replaceWith(
                 $('.row').html("<img src='https://media2.giphy.com/media/xT8qBepJQzUjXpeWU8/giphy.gif'>"),
                 $('#ending').html("Congragulations!"),
                 $('#points').html(total),
                 $('#play').html('<button type="button" onclick="history.back();">Play Again?</button>')
-        )
+            )
         }
     })
 })
