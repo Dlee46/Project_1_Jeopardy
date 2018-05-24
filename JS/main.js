@@ -328,11 +328,13 @@ $(document).ready(function () {
     });
     $('.modal a').on("click", function(){
         if (final === 1) {
-            alert("hi")
+            $('container').replaceWith(
+                $('.row').html("<img src='https://media2.giphy.com/media/xT8qBepJQzUjXpeWU8/giphy.gif'>")
+            )
         }
     })
     
-        
+
     
         
 //  const hideStuff = [$('#musicone'), $('#musictwo'), $('#musicthree'), $('#musicfour'), $('#musicfive'), $('#lifeone'), $('#lifetwo'), $('#lifethree'), $('#lifefour'), $('#lifefive'), $('#mathone'), $('#mathtwo'), $('#maththree'), $('#mathfour'), $('#mathfive'), $('#societyone'), $('#societytwo'), $('#societythree'), $('#societyfour'), $('#societyfive')]
