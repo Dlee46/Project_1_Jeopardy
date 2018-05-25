@@ -14,4 +14,4 @@ Jeopardy is a quiz game where the user gets to choose the next question by choos
 * `JavaScript`
 
 ## Project
-[Jeopardy](stupefied-panini-475990.bitballoon.com)
+[Jeopardy](http://dlee46-jeopardy.bitballoon.com/)
